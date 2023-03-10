@@ -14,6 +14,16 @@ Containers & codecs:
 Issues:
 * Pause does not stop audio recording on Chrome 49,50
 
+# Try local (optional)
+One of options is using [http-server](https://www.npmjs.com/package/http-server)
+``` shell
+git clone https://github.com/ingtshan/Media-Recorder-API-Demo.git
+cd Media-Recorder-API-Demo
+npm install http-server
+# then run it
+node node_modules/http-server/bin/http-server .
+# default available on: http://127.0.0.1:8080
+```
 
 Links:
 * [Live demo of this code](https://addpipe.com/media-recorder-api-demo/)
